@@ -291,6 +291,10 @@ The minimum croping aspect ratio. If set, user is prevented from setting croppin
  */
 - (void)moveCroppedContentToCenterAnimated:(BOOL)animated;
 
+@property (nonnull, nonatomic, strong, readonly) UIImageView *backgroundImageView;
+@property (nonnull, nonatomic, strong, readonly) UIImageView *foregroundImageView;
+@property (nonnull, nonatomic, strong, readonly) UIView *overlayView;
+
 @end
 
 NS_ASSUME_NONNULL_END
